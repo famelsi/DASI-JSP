@@ -2,7 +2,7 @@
   <body>
     <h1>Paiement</h1>
 
-
+    <%-- Calcul le prix supplémentaire --%>
     <%
       if(${param.panier} < 5)
         panier += 50
