@@ -8,4 +8,17 @@ public class Articles{
     this.nom = nom;
     this.prix = prix;
   }
+
+  public String getNom(){
+    return this.nom;
+  }
+
+  public int getPrix(){
+    return this.prix;
+  }
+
+  public String toString(){
+    return this.nom + " coute " + this.prix
+  }
+
 }

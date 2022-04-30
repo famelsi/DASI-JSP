@@ -6,9 +6,7 @@
     <%
       if(${param.panier} < 5)
         panier += 50
-      else if (${param.panier} > 100)
-        panier += 0
-      else
+      else if (${param.panier} <= 100)
         panier += 8
     %>
 
